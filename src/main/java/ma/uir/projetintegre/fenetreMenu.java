@@ -58,18 +58,102 @@ public class fenetreMenu extends javax.swing.JFrame {
         btnSupCmpt = new javax.swing.JButton();
         jpListerFrs = new javax.swing.JPanel();
         btnRetour5 = new javax.swing.JButton();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jtb_frs = new javax.swing.JTable();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        tf_frs_nom = new javax.swing.JTextField();
+        jLabel10 = new javax.swing.JLabel();
+        tf_frs_adrs = new javax.swing.JTextField();
+        jLabel11 = new javax.swing.JLabel();
+        tf_frs_ville = new javax.swing.JTextField();
+        jLabel12 = new javax.swing.JLabel();
+        tf_frs_pays = new javax.swing.JTextField();
+        jLabel13 = new javax.swing.JLabel();
+        tf_frs_num = new javax.swing.JTextField();
+        jLabel14 = new javax.swing.JLabel();
+        tf_frs_email = new javax.swing.JTextField();
+        jbtn_ajouterfrs1 = new javax.swing.JButton();
+        jbtn_modfrs1 = new javax.swing.JButton();
+        jbtn_supfrs1 = new javax.swing.JButton();
+        jLabel15 = new javax.swing.JLabel();
+        tf_frs_rechercher = new javax.swing.JTextField();
         jpAjouterFrs = new javax.swing.JPanel();
         btnRetour6 = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        tf_frs_nom2 = new javax.swing.JTextField();
+        jLabel3 = new javax.swing.JLabel();
+        tf_frs_adrs2 = new javax.swing.JTextField();
+        jLabel4 = new javax.swing.JLabel();
+        tf_frs_ville2 = new javax.swing.JTextField();
+        jLabel5 = new javax.swing.JLabel();
+        tf_frs_pays2 = new javax.swing.JTextField();
+        jLabel6 = new javax.swing.JLabel();
+        tf_frs_num2 = new javax.swing.JTextField();
+        jLabel7 = new javax.swing.JLabel();
+        tf_frs_mail2 = new javax.swing.JTextField();
+        jbtn_ajouterfrs = new javax.swing.JButton();
         jpListerPrds = new javax.swing.JPanel();
         btnRetour7 = new javax.swing.JButton();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        jtb_frs1 = new javax.swing.JTable();
+        jLabel16 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
+        tf_prdt_nom = new javax.swing.JTextField();
+        jLabel18 = new javax.swing.JLabel();
+        tf_prdt_ref = new javax.swing.JTextField();
+        jLabel19 = new javax.swing.JLabel();
+        tf_prdt_cat = new javax.swing.JTextField();
+        jLabel20 = new javax.swing.JLabel();
+        tf_prdt_prixu = new javax.swing.JTextField();
+        jLabel21 = new javax.swing.JLabel();
+        tf_prdt_quant = new javax.swing.JTextField();
+        jbtn_modprdt = new javax.swing.JButton();
+        jbtn_ajouterprdt = new javax.swing.JButton();
+        jbtn_supprdt = new javax.swing.JButton();
+        jLabel22 = new javax.swing.JLabel();
+        tf_prdt_recherche = new javax.swing.JTextField();
         jpAjouterPrd = new javax.swing.JPanel();
         btnRetour8 = new javax.swing.JButton();
+        jLabel23 = new javax.swing.JLabel();
+        jLabel24 = new javax.swing.JLabel();
+        jLabel25 = new javax.swing.JLabel();
+        jLabel26 = new javax.swing.JLabel();
+        jLabel27 = new javax.swing.JLabel();
+        jLabel28 = new javax.swing.JLabel();
+        jtf_frs_nom1 = new javax.swing.JTextField();
+        jtf_frs_adrs1 = new javax.swing.JTextField();
+        jtf_frs_ville1 = new javax.swing.JTextField();
+        jtf_frs_pays1 = new javax.swing.JTextField();
+        jtf_frs_num1 = new javax.swing.JTextField();
+        jbtn_ajouterfrs2 = new javax.swing.JButton();
         jpVide = new javax.swing.JPanel();
         btnRetour9 = new javax.swing.JButton();
         jpListerCmpts = new javax.swing.JPanel();
         btnRetour10 = new javax.swing.JButton();
+        jLabel29 = new javax.swing.JLabel();
+        jLabel30 = new javax.swing.JLabel();
+        tf_cpt_id = new javax.swing.JTextField();
+        jLabel31 = new javax.swing.JLabel();
+        tf_cpt_mdp = new javax.swing.JTextField();
+        jScrollPane3 = new javax.swing.JScrollPane();
+        jtb_cpt = new javax.swing.JTable();
+        jbtn_ajoutercpt = new javax.swing.JButton();
+        jbtn_modcpt = new javax.swing.JButton();
+        jbtn_supcpt = new javax.swing.JButton();
+        jLabel32 = new javax.swing.JLabel();
+        tf_cpt_recherche = new javax.swing.JTextField();
         jpAjouterCmpt = new javax.swing.JPanel();
         btnRetour11 = new javax.swing.JButton();
+        jLabel33 = new javax.swing.JLabel();
+        jLabel35 = new javax.swing.JLabel();
+        jtf_frs_ville2 = new javax.swing.JTextField();
+        jLabel37 = new javax.swing.JLabel();
+        jtf_frs_num2 = new javax.swing.JTextField();
+        jbtn_ajoutercpt2 = new javax.swing.JButton();
+        jLabel34 = new javax.swing.JLabel();
+        cb_status = new javax.swing.JComboBox<>();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(255, 153, 102));
@@ -85,7 +169,6 @@ public class fenetreMenu extends javax.swing.JFrame {
 
         lbMenuLogo.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
         lbMenuLogo.setForeground(new java.awt.Color(51, 51, 51));
-        lbMenuLogo.setIcon(new javax.swing.ImageIcon("C:\\Users\\tajem\\Documents\\NetBeansProjects\\projetIntegre\\src\\main\\java\\ma\\uir\\projetintegre\\icons8_Menu_50px.png")); // NOI18N
         lbMenuLogo.setText("Menu");
         jpMenu.add(lbMenuLogo, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 60, 130, 50));
 
@@ -217,7 +300,7 @@ public class fenetreMenu extends javax.swing.JFrame {
                     .addComponent(btnSupFrs, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btnAjouterFrs, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btnListerFrs, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(272, Short.MAX_VALUE))
+                .addContainerGap(295, Short.MAX_VALUE))
         );
         jpMenuFrsLayout.setVerticalGroup(
             jpMenuFrsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -274,7 +357,7 @@ public class fenetreMenu extends javax.swing.JFrame {
                     .addComponent(btnSupProd, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btnAjouterPrd, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btnListerPrds, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(298, Short.MAX_VALUE))
+                .addContainerGap(320, Short.MAX_VALUE))
         );
         jpMenuPrdsLayout.setVerticalGroup(
             jpMenuPrdsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -304,7 +387,7 @@ public class fenetreMenu extends javax.swing.JFrame {
         jpHistCmdsLayout.setHorizontalGroup(
             jpHistCmdsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jpHistCmdsLayout.createSequentialGroup()
-                .addContainerGap(604, Short.MAX_VALUE)
+                .addContainerGap(623, Short.MAX_VALUE)
                 .addComponent(btnRetour3)
                 .addGap(26, 26, 26))
         );
@@ -365,31 +448,165 @@ public class fenetreMenu extends javax.swing.JFrame {
 
         jtpBoard.addTab("tab5", jpMenuCmpts);
 
+        jpListerFrs.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
         btnRetour5.setText("Retour");
         btnRetour5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnRetour5ActionPerformed(evt);
             }
         });
+        jpListerFrs.add(btnRetour5, new org.netbeans.lib.awtextra.AbsoluteConstraints(623, 545, -1, -1));
 
-        javax.swing.GroupLayout jpListerFrsLayout = new javax.swing.GroupLayout(jpListerFrs);
-        jpListerFrs.setLayout(jpListerFrsLayout);
-        jpListerFrsLayout.setHorizontalGroup(
-            jpListerFrsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jpListerFrsLayout.createSequentialGroup()
-                .addContainerGap(604, Short.MAX_VALUE)
-                .addComponent(btnRetour5)
-                .addGap(26, 26, 26))
-        );
-        jpListerFrsLayout.setVerticalGroup(
-            jpListerFrsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jpListerFrsLayout.createSequentialGroup()
-                .addContainerGap(537, Short.MAX_VALUE)
-                .addComponent(btnRetour5)
-                .addGap(25, 25, 25))
-        );
+        jtb_frs.setBackground(new java.awt.Color(255, 255, 255));
+        jtb_frs.setForeground(new java.awt.Color(255, 255, 255));
+        jtb_frs.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "Nom", "Adresse", "Ville", "Pays", "Num Tel", "Email"
+            }
+        ));
+        jtb_frs.setGridColor(new java.awt.Color(255, 255, 255));
+        jScrollPane1.setViewportView(jtb_frs);
+
+        jpListerFrs.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 160, 450, 329));
+
+        jLabel8.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel8.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel8.setText("Liste des fournisseurs");
+        jpListerFrs.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 40, 200, 30));
+
+        jLabel9.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel9.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel9.setText("Nom");
+        jpListerFrs.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 160, 53, 29));
+
+        tf_frs_nom.setBackground(new java.awt.Color(255, 255, 255));
+        tf_frs_nom.setForeground(new java.awt.Color(0, 0, 0));
+        tf_frs_nom.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tf_frs_nomActionPerformed(evt);
+            }
+        });
+        jpListerFrs.add(tf_frs_nom, new org.netbeans.lib.awtextra.AbsoluteConstraints(65, 160, 140, 29));
+
+        jLabel10.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel10.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel10.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel10.setText("Adresse");
+        jpListerFrs.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 207, 53, 29));
+
+        tf_frs_adrs.setBackground(new java.awt.Color(255, 255, 255));
+        tf_frs_adrs.setForeground(new java.awt.Color(0, 0, 0));
+        tf_frs_adrs.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tf_frs_adrsActionPerformed(evt);
+            }
+        });
+        jpListerFrs.add(tf_frs_adrs, new org.netbeans.lib.awtextra.AbsoluteConstraints(65, 207, 140, 29));
+
+        jLabel11.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel11.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel11.setText("Ville");
+        jpListerFrs.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 254, 53, 29));
+
+        tf_frs_ville.setBackground(new java.awt.Color(255, 255, 255));
+        tf_frs_ville.setForeground(new java.awt.Color(0, 0, 0));
+        jpListerFrs.add(tf_frs_ville, new org.netbeans.lib.awtextra.AbsoluteConstraints(65, 254, 140, 29));
+
+        jLabel12.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel12.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel12.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel12.setText("Pays");
+        jpListerFrs.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 301, 53, 29));
+
+        tf_frs_pays.setBackground(new java.awt.Color(255, 255, 255));
+        tf_frs_pays.setForeground(new java.awt.Color(0, 0, 0));
+        tf_frs_pays.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tf_frs_paysActionPerformed(evt);
+            }
+        });
+        jpListerFrs.add(tf_frs_pays, new org.netbeans.lib.awtextra.AbsoluteConstraints(65, 301, 140, 29));
+
+        jLabel13.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel13.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel13.setText("Num Tel");
+        jpListerFrs.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 348, 53, 29));
+
+        tf_frs_num.setBackground(new java.awt.Color(255, 255, 255));
+        tf_frs_num.setForeground(new java.awt.Color(0, 0, 0));
+        tf_frs_num.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tf_frs_numActionPerformed(evt);
+            }
+        });
+        jpListerFrs.add(tf_frs_num, new org.netbeans.lib.awtextra.AbsoluteConstraints(65, 348, 140, 29));
+
+        jLabel14.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel14.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel14.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel14.setText("Email");
+        jpListerFrs.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 398, 53, 29));
+
+        tf_frs_email.setBackground(new java.awt.Color(255, 255, 255));
+        tf_frs_email.setForeground(new java.awt.Color(0, 0, 0));
+        jpListerFrs.add(tf_frs_email, new org.netbeans.lib.awtextra.AbsoluteConstraints(65, 398, 140, 29));
+
+        jbtn_ajouterfrs1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jbtn_ajouterfrs1.setForeground(new java.awt.Color(0, 0, 0));
+        jbtn_ajouterfrs1.setText("Ajouter un fournisseur");
+        jbtn_ajouterfrs1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jbtn_ajouterfrs1ActionPerformed(evt);
+            }
+        });
+        jpListerFrs.add(jbtn_ajouterfrs1, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 519, 166, 31));
+
+        jbtn_modfrs1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jbtn_modfrs1.setForeground(new java.awt.Color(0, 0, 0));
+        jbtn_modfrs1.setText("Modifier les informations ");
+        jbtn_modfrs1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jbtn_modfrs1ActionPerformed(evt);
+            }
+        });
+        jpListerFrs.add(jbtn_modfrs1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 520, -1, 31));
+
+        jbtn_supfrs1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jbtn_supfrs1.setForeground(new java.awt.Color(0, 0, 0));
+        jbtn_supfrs1.setText("Supprimer un fournisseur");
+        jbtn_supfrs1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jbtn_supfrs1ActionPerformed(evt);
+            }
+        });
+        jpListerFrs.add(jbtn_supfrs1, new org.netbeans.lib.awtextra.AbsoluteConstraints(376, 519, -1, 31));
+
+        jLabel15.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel15.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel15.setText("Rechercher :");
+        jpListerFrs.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 120, -1, 29));
+
+        tf_frs_rechercher.setBackground(new java.awt.Color(255, 255, 255));
+        tf_frs_rechercher.setForeground(new java.awt.Color(0, 0, 0));
+        tf_frs_rechercher.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tf_frs_rechercherActionPerformed(evt);
+            }
+        });
+        jpListerFrs.add(tf_frs_rechercher, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 120, 201, -1));
 
         jtpBoard.addTab("tab6", jpListerFrs);
+
+        jpAjouterFrs.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         btnRetour6.setText("Retour");
         btnRetour6.addActionListener(new java.awt.event.ActionListener() {
@@ -397,25 +614,95 @@ public class fenetreMenu extends javax.swing.JFrame {
                 btnRetour6ActionPerformed(evt);
             }
         });
+        jpAjouterFrs.add(btnRetour6, new org.netbeans.lib.awtextra.AbsoluteConstraints(623, 545, -1, -1));
 
-        javax.swing.GroupLayout jpAjouterFrsLayout = new javax.swing.GroupLayout(jpAjouterFrs);
-        jpAjouterFrs.setLayout(jpAjouterFrsLayout);
-        jpAjouterFrsLayout.setHorizontalGroup(
-            jpAjouterFrsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jpAjouterFrsLayout.createSequentialGroup()
-                .addContainerGap(604, Short.MAX_VALUE)
-                .addComponent(btnRetour6)
-                .addGap(26, 26, 26))
-        );
-        jpAjouterFrsLayout.setVerticalGroup(
-            jpAjouterFrsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jpAjouterFrsLayout.createSequentialGroup()
-                .addContainerGap(537, Short.MAX_VALUE)
-                .addComponent(btnRetour6)
-                .addGap(25, 25, 25))
-        );
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel1.setText("Ajouter un founisseur");
+        jpAjouterFrs.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 50, 200, 30));
+
+        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel2.setText("Nom");
+        jpAjouterFrs.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 130, 53, 29));
+
+        tf_frs_nom2.setBackground(new java.awt.Color(255, 255, 255));
+        tf_frs_nom2.setForeground(new java.awt.Color(0, 0, 0));
+        jpAjouterFrs.add(tf_frs_nom2, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 130, 151, 29));
+
+        jLabel3.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel3.setText("Adresse");
+        jpAjouterFrs.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 170, 53, 29));
+
+        tf_frs_adrs2.setBackground(new java.awt.Color(255, 255, 255));
+        tf_frs_adrs2.setForeground(new java.awt.Color(0, 0, 0));
+        tf_frs_adrs2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tf_frs_adrs2ActionPerformed(evt);
+            }
+        });
+        jpAjouterFrs.add(tf_frs_adrs2, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 170, 151, 29));
+
+        jLabel4.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel4.setText("Ville");
+        jpAjouterFrs.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 220, 53, 29));
+
+        tf_frs_ville2.setBackground(new java.awt.Color(255, 255, 255));
+        tf_frs_ville2.setForeground(new java.awt.Color(0, 0, 0));
+        jpAjouterFrs.add(tf_frs_ville2, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 220, 151, 29));
+
+        jLabel5.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel5.setText("Pays");
+        jpAjouterFrs.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 270, 53, 29));
+
+        tf_frs_pays2.setBackground(new java.awt.Color(255, 255, 255));
+        tf_frs_pays2.setForeground(new java.awt.Color(0, 0, 0));
+        tf_frs_pays2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tf_frs_pays2ActionPerformed(evt);
+            }
+        });
+        jpAjouterFrs.add(tf_frs_pays2, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 270, 151, 29));
+
+        jLabel6.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel6.setText("Num Tel");
+        jpAjouterFrs.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 310, 53, 29));
+
+        tf_frs_num2.setBackground(new java.awt.Color(255, 255, 255));
+        tf_frs_num2.setForeground(new java.awt.Color(0, 0, 0));
+        tf_frs_num2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tf_frs_num2ActionPerformed(evt);
+            }
+        });
+        jpAjouterFrs.add(tf_frs_num2, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 310, 151, 29));
+
+        jLabel7.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel7.setText("Email");
+        jpAjouterFrs.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 360, 53, 29));
+
+        tf_frs_mail2.setBackground(new java.awt.Color(255, 255, 255));
+        tf_frs_mail2.setForeground(new java.awt.Color(0, 0, 0));
+        jpAjouterFrs.add(tf_frs_mail2, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 360, 151, 29));
+
+        jbtn_ajouterfrs.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jbtn_ajouterfrs.setForeground(new java.awt.Color(0, 0, 0));
+        jbtn_ajouterfrs.setText("Ajouter");
+        jbtn_ajouterfrs.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jbtn_ajouterfrsActionPerformed(evt);
+            }
+        });
+        jpAjouterFrs.add(jbtn_ajouterfrs, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 420, 120, 30));
 
         jtpBoard.addTab("tab7", jpAjouterFrs);
+
+        jpListerPrds.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         btnRetour7.setText("Retour");
         btnRetour7.addActionListener(new java.awt.event.ActionListener() {
@@ -423,25 +710,138 @@ public class fenetreMenu extends javax.swing.JFrame {
                 btnRetour7ActionPerformed(evt);
             }
         });
+        jpListerPrds.add(btnRetour7, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 545, 90, -1));
 
-        javax.swing.GroupLayout jpListerPrdsLayout = new javax.swing.GroupLayout(jpListerPrds);
-        jpListerPrds.setLayout(jpListerPrdsLayout);
-        jpListerPrdsLayout.setHorizontalGroup(
-            jpListerPrdsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jpListerPrdsLayout.createSequentialGroup()
-                .addContainerGap(604, Short.MAX_VALUE)
-                .addComponent(btnRetour7)
-                .addGap(26, 26, 26))
-        );
-        jpListerPrdsLayout.setVerticalGroup(
-            jpListerPrdsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jpListerPrdsLayout.createSequentialGroup()
-                .addContainerGap(537, Short.MAX_VALUE)
-                .addComponent(btnRetour7)
-                .addGap(25, 25, 25))
-        );
+        jtb_frs1.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "Nom", "Reference", "Catégorie", "Prix unitaire", "Quantité"
+            }
+        ));
+        jScrollPane2.setViewportView(jtb_frs1);
+
+        jpListerPrds.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 140, 420, 350));
+
+        jLabel16.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel16.setText("Liste des produits");
+        jpListerPrds.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 30, 160, 30));
+
+        jLabel17.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel17.setText("Nom");
+        jpListerPrds.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 190, 53, 29));
+
+        tf_prdt_nom.setBackground(new java.awt.Color(255, 255, 255));
+        tf_prdt_nom.setForeground(new java.awt.Color(0, 0, 0));
+        tf_prdt_nom.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tf_prdt_nomActionPerformed(evt);
+            }
+        });
+        jpListerPrds.add(tf_prdt_nom, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 190, 166, 30));
+
+        jLabel18.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel18.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel18.setText("Reference");
+        jpListerPrds.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 230, 70, 29));
+
+        tf_prdt_ref.setBackground(new java.awt.Color(255, 255, 255));
+        tf_prdt_ref.setForeground(new java.awt.Color(0, 0, 0));
+        tf_prdt_ref.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tf_prdt_refActionPerformed(evt);
+            }
+        });
+        jpListerPrds.add(tf_prdt_ref, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, 166, 30));
+
+        jLabel19.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel19.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel19.setText("Catégorie");
+        jpListerPrds.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 280, 70, 29));
+
+        tf_prdt_cat.setBackground(new java.awt.Color(255, 255, 255));
+        tf_prdt_cat.setForeground(new java.awt.Color(0, 0, 0));
+        tf_prdt_cat.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tf_prdt_catActionPerformed(evt);
+            }
+        });
+        jpListerPrds.add(tf_prdt_cat, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 280, 166, 30));
+
+        jLabel20.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel20.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel20.setText("Prix unitaire");
+        jpListerPrds.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 330, 90, 29));
+
+        tf_prdt_prixu.setBackground(new java.awt.Color(255, 255, 255));
+        tf_prdt_prixu.setForeground(new java.awt.Color(0, 0, 0));
+        tf_prdt_prixu.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tf_prdt_prixuActionPerformed(evt);
+            }
+        });
+        jpListerPrds.add(tf_prdt_prixu, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 330, 166, 30));
+
+        jLabel21.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel21.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel21.setText("Quantité");
+        jpListerPrds.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 380, 70, 29));
+
+        tf_prdt_quant.setBackground(new java.awt.Color(255, 255, 255));
+        tf_prdt_quant.setForeground(new java.awt.Color(0, 0, 0));
+        tf_prdt_quant.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tf_prdt_quantActionPerformed(evt);
+            }
+        });
+        jpListerPrds.add(tf_prdt_quant, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 380, 166, 30));
+
+        jbtn_modprdt.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jbtn_modprdt.setForeground(new java.awt.Color(0, 0, 0));
+        jbtn_modprdt.setText("Modifier les informations ");
+        jbtn_modprdt.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jbtn_modprdtActionPerformed(evt);
+            }
+        });
+        jpListerPrds.add(jbtn_modprdt, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 530, -1, 31));
+
+        jbtn_ajouterprdt.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jbtn_ajouterprdt.setForeground(new java.awt.Color(0, 0, 0));
+        jbtn_ajouterprdt.setText("Ajouter un produit");
+        jbtn_ajouterprdt.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jbtn_ajouterprdtActionPerformed(evt);
+            }
+        });
+        jpListerPrds.add(jbtn_ajouterprdt, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 530, 166, 31));
+
+        jbtn_supprdt.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jbtn_supprdt.setForeground(new java.awt.Color(0, 0, 0));
+        jbtn_supprdt.setText("Supprimer un produit");
+        jbtn_supprdt.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jbtn_supprdtActionPerformed(evt);
+            }
+        });
+        jpListerPrds.add(jbtn_supprdt, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 530, -1, 31));
+
+        jLabel22.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel22.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
+        jLabel22.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel22.setText("Rechercher :");
+        jpListerPrds.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 90, -1, 29));
+
+        tf_prdt_recherche.setBackground(new java.awt.Color(255, 255, 255));
+        tf_prdt_recherche.setForeground(new java.awt.Color(0, 0, 0));
+        jpListerPrds.add(tf_prdt_recherche, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 90, 201, -1));
 
         jtpBoard.addTab("tab8", jpListerPrds);
+
+        jpAjouterPrd.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         btnRetour8.setText("Retour");
         btnRetour8.addActionListener(new java.awt.event.ActionListener() {
@@ -449,23 +849,87 @@ public class fenetreMenu extends javax.swing.JFrame {
                 btnRetour8ActionPerformed(evt);
             }
         });
+        jpAjouterPrd.add(btnRetour8, new org.netbeans.lib.awtextra.AbsoluteConstraints(623, 537, -1, -1));
 
-        javax.swing.GroupLayout jpAjouterPrdLayout = new javax.swing.GroupLayout(jpAjouterPrd);
-        jpAjouterPrd.setLayout(jpAjouterPrdLayout);
-        jpAjouterPrdLayout.setHorizontalGroup(
-            jpAjouterPrdLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jpAjouterPrdLayout.createSequentialGroup()
-                .addContainerGap(604, Short.MAX_VALUE)
-                .addComponent(btnRetour8)
-                .addGap(26, 26, 26))
-        );
-        jpAjouterPrdLayout.setVerticalGroup(
-            jpAjouterPrdLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jpAjouterPrdLayout.createSequentialGroup()
-                .addContainerGap(537, Short.MAX_VALUE)
-                .addComponent(btnRetour8)
-                .addGap(25, 25, 25))
-        );
+        jLabel23.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel23.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel23.setText("Ajouter un produit");
+        jpAjouterPrd.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 50, 181, 30));
+
+        jLabel24.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel24.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel24.setText("Nom");
+        jpAjouterPrd.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 130, 53, 29));
+
+        jLabel25.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel25.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel25.setText("Reference");
+        jpAjouterPrd.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 170, 70, 29));
+
+        jLabel26.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel26.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel26.setText("Catégorie");
+        jpAjouterPrd.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 220, 70, 29));
+
+        jLabel27.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel27.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel27.setText("Prix unitaire");
+        jpAjouterPrd.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 270, -1, 29));
+
+        jLabel28.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel28.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel28.setText("Quantité");
+        jpAjouterPrd.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 320, -1, 29));
+
+        jtf_frs_nom1.setBackground(new java.awt.Color(255, 255, 255));
+        jtf_frs_nom1.setForeground(new java.awt.Color(0, 0, 0));
+        jtf_frs_nom1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jtf_frs_nom1ActionPerformed(evt);
+            }
+        });
+        jpAjouterPrd.add(jtf_frs_nom1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 130, 166, 30));
+
+        jtf_frs_adrs1.setBackground(new java.awt.Color(255, 255, 255));
+        jtf_frs_adrs1.setForeground(new java.awt.Color(0, 0, 0));
+        jtf_frs_adrs1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jtf_frs_adrs1ActionPerformed(evt);
+            }
+        });
+        jpAjouterPrd.add(jtf_frs_adrs1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 170, 166, 30));
+
+        jtf_frs_ville1.setBackground(new java.awt.Color(255, 255, 255));
+        jtf_frs_ville1.setForeground(new java.awt.Color(0, 0, 0));
+        jpAjouterPrd.add(jtf_frs_ville1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 220, 166, 30));
+
+        jtf_frs_pays1.setBackground(new java.awt.Color(255, 255, 255));
+        jtf_frs_pays1.setForeground(new java.awt.Color(0, 0, 0));
+        jtf_frs_pays1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jtf_frs_pays1ActionPerformed(evt);
+            }
+        });
+        jpAjouterPrd.add(jtf_frs_pays1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 270, 166, 30));
+
+        jtf_frs_num1.setBackground(new java.awt.Color(255, 255, 255));
+        jtf_frs_num1.setForeground(new java.awt.Color(0, 0, 0));
+        jtf_frs_num1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jtf_frs_num1ActionPerformed(evt);
+            }
+        });
+        jpAjouterPrd.add(jtf_frs_num1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 320, 166, 30));
+
+        jbtn_ajouterfrs2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jbtn_ajouterfrs2.setForeground(new java.awt.Color(0, 0, 0));
+        jbtn_ajouterfrs2.setText("Ajouter");
+        jbtn_ajouterfrs2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jbtn_ajouterfrs2ActionPerformed(evt);
+            }
+        });
+        jpAjouterPrd.add(jbtn_ajouterfrs2, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 400, 130, 31));
 
         jtpBoard.addTab("tab9", jpAjouterPrd);
 
@@ -481,7 +945,7 @@ public class fenetreMenu extends javax.swing.JFrame {
         jpVideLayout.setHorizontalGroup(
             jpVideLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jpVideLayout.createSequentialGroup()
-                .addContainerGap(604, Short.MAX_VALUE)
+                .addContainerGap(623, Short.MAX_VALUE)
                 .addComponent(btnRetour9)
                 .addGap(26, 26, 26))
         );
@@ -502,21 +966,154 @@ public class fenetreMenu extends javax.swing.JFrame {
             }
         });
 
+        jLabel29.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel29.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel29.setText("Liste des comptes");
+
+        jLabel30.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel30.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel30.setText("Identifiant");
+
+        tf_cpt_id.setBackground(new java.awt.Color(255, 255, 255));
+        tf_cpt_id.setForeground(new java.awt.Color(0, 0, 0));
+        tf_cpt_id.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tf_cpt_idActionPerformed(evt);
+            }
+        });
+
+        jLabel31.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel31.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel31.setText("Mot de passe");
+
+        tf_cpt_mdp.setBackground(new java.awt.Color(255, 255, 255));
+        tf_cpt_mdp.setForeground(new java.awt.Color(0, 0, 0));
+        tf_cpt_mdp.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tf_cpt_mdpActionPerformed(evt);
+            }
+        });
+
+        jtb_cpt.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "Identifiant", "Mot de passe", "Statut"
+            }
+        ));
+        jScrollPane3.setViewportView(jtb_cpt);
+
+        jbtn_ajoutercpt.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jbtn_ajoutercpt.setForeground(new java.awt.Color(0, 0, 0));
+        jbtn_ajoutercpt.setText("Ajouter un compte");
+        jbtn_ajoutercpt.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jbtn_ajoutercptActionPerformed(evt);
+            }
+        });
+
+        jbtn_modcpt.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jbtn_modcpt.setForeground(new java.awt.Color(0, 0, 0));
+        jbtn_modcpt.setText("Modifier les informations ");
+        jbtn_modcpt.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jbtn_modcptActionPerformed(evt);
+            }
+        });
+
+        jbtn_supcpt.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jbtn_supcpt.setForeground(new java.awt.Color(0, 0, 0));
+        jbtn_supcpt.setText("Supprimer un compte");
+        jbtn_supcpt.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jbtn_supcptActionPerformed(evt);
+            }
+        });
+
+        jLabel32.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel32.setFont(new java.awt.Font("Dialog", 1, 12)); // NOI18N
+        jLabel32.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel32.setText("Rechercher :");
+
+        tf_cpt_recherche.setBackground(new java.awt.Color(255, 255, 255));
+        tf_cpt_recherche.setForeground(new java.awt.Color(0, 0, 0));
+
         javax.swing.GroupLayout jpListerCmptsLayout = new javax.swing.GroupLayout(jpListerCmpts);
         jpListerCmpts.setLayout(jpListerCmptsLayout);
         jpListerCmptsLayout.setHorizontalGroup(
             jpListerCmptsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jpListerCmptsLayout.createSequentialGroup()
-                .addContainerGap(604, Short.MAX_VALUE)
-                .addComponent(btnRetour10)
-                .addGap(26, 26, 26))
+            .addGroup(jpListerCmptsLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jpListerCmptsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jpListerCmptsLayout.createSequentialGroup()
+                        .addComponent(jbtn_ajoutercpt, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(14, 14, 14)
+                        .addComponent(jbtn_modcpt)
+                        .addGap(22, 22, 22)
+                        .addComponent(jbtn_supcpt)
+                        .addGap(79, 79, 79)
+                        .addComponent(btnRetour10, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 11, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jpListerCmptsLayout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 428, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(151, 151, 151))
+            .addGroup(jpListerCmptsLayout.createSequentialGroup()
+                .addGap(263, 263, 263)
+                .addComponent(jLabel29, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
+            .addGroup(jpListerCmptsLayout.createSequentialGroup()
+                .addGap(14, 14, 14)
+                .addComponent(jLabel32)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(tf_cpt_recherche, javax.swing.GroupLayout.PREFERRED_SIZE, 201, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(jpListerCmptsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jpListerCmptsLayout.createSequentialGroup()
+                    .addContainerGap()
+                    .addGroup(jpListerCmptsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(jLabel30, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel31, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addGroup(jpListerCmptsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(tf_cpt_id, javax.swing.GroupLayout.DEFAULT_SIZE, 150, Short.MAX_VALUE)
+                        .addComponent(tf_cpt_mdp))
+                    .addGap(597, 597, 597)))
         );
         jpListerCmptsLayout.setVerticalGroup(
             jpListerCmptsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jpListerCmptsLayout.createSequentialGroup()
-                .addContainerGap(537, Short.MAX_VALUE)
-                .addComponent(btnRetour10)
-                .addGap(25, 25, 25))
+                .addGap(42, 42, 42)
+                .addComponent(jLabel29, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 42, Short.MAX_VALUE)
+                .addGroup(jpListerCmptsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel32, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(tf_cpt_recherche, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jpListerCmptsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jpListerCmptsLayout.createSequentialGroup()
+                        .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 327, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(41, 41, 41)
+                        .addGroup(jpListerCmptsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jbtn_ajoutercpt, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jbtn_modcpt, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jbtn_supcpt, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(46, 46, 46))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jpListerCmptsLayout.createSequentialGroup()
+                        .addComponent(btnRetour10)
+                        .addGap(32, 32, 32))))
+            .addGroup(jpListerCmptsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jpListerCmptsLayout.createSequentialGroup()
+                    .addGap(226, 226, 226)
+                    .addGroup(jpListerCmptsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(tf_cpt_id, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel30, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGap(35, 35, 35)
+                    .addGroup(jpListerCmptsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(tf_cpt_mdp, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel31, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addContainerGap(275, Short.MAX_VALUE)))
         );
 
         jtpBoard.addTab("tab11", jpListerCmpts);
@@ -528,19 +1125,101 @@ public class fenetreMenu extends javax.swing.JFrame {
             }
         });
 
+        jLabel33.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel33.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel33.setText("Ajouter un Compte");
+
+        jLabel35.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel35.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel35.setText("Mot de Passe");
+
+        jtf_frs_ville2.setBackground(new java.awt.Color(255, 255, 255));
+        jtf_frs_ville2.setForeground(new java.awt.Color(0, 0, 0));
+
+        jLabel37.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel37.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel37.setText("Identifiant");
+
+        jtf_frs_num2.setBackground(new java.awt.Color(255, 255, 255));
+        jtf_frs_num2.setForeground(new java.awt.Color(0, 0, 0));
+        jtf_frs_num2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jtf_frs_num2ActionPerformed(evt);
+            }
+        });
+
+        jbtn_ajoutercpt2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jbtn_ajoutercpt2.setForeground(new java.awt.Color(0, 0, 0));
+        jbtn_ajoutercpt2.setText("Ajouter");
+        jbtn_ajoutercpt2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jbtn_ajoutercpt2ActionPerformed(evt);
+            }
+        });
+
+        jLabel34.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel34.setText("Status");
+
+        cb_status.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Admin", "Client" }));
+
         javax.swing.GroupLayout jpAjouterCmptLayout = new javax.swing.GroupLayout(jpAjouterCmpt);
         jpAjouterCmpt.setLayout(jpAjouterCmptLayout);
         jpAjouterCmptLayout.setHorizontalGroup(
             jpAjouterCmptLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jpAjouterCmptLayout.createSequentialGroup()
-                .addContainerGap(604, Short.MAX_VALUE)
-                .addComponent(btnRetour11)
-                .addGap(26, 26, 26))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(jpAjouterCmptLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jpAjouterCmptLayout.createSequentialGroup()
+                        .addComponent(btnRetour11)
+                        .addGap(26, 26, 26))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jpAjouterCmptLayout.createSequentialGroup()
+                        .addComponent(jLabel33)
+                        .addGap(262, 262, 262))))
+            .addGroup(jpAjouterCmptLayout.createSequentialGroup()
+                .addGroup(jpAjouterCmptLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jpAjouterCmptLayout.createSequentialGroup()
+                        .addGap(205, 205, 205)
+                        .addComponent(jLabel37))
+                    .addGroup(jpAjouterCmptLayout.createSequentialGroup()
+                        .addGap(304, 304, 304)
+                        .addComponent(jbtn_ajoutercpt2, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(jpAjouterCmptLayout.createSequentialGroup()
+                .addGap(205, 205, 205)
+                .addGroup(jpAjouterCmptLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jpAjouterCmptLayout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(jtf_frs_ville2, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jpAjouterCmptLayout.createSequentialGroup()
+                        .addGroup(jpAjouterCmptLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel35)
+                            .addComponent(jLabel34, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 45, Short.MAX_VALUE)
+                        .addGroup(jpAjouterCmptLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(cb_status, 0, 146, Short.MAX_VALUE)
+                            .addComponent(jtf_frs_num2))))
+                .addGap(220, 220, 220))
         );
         jpAjouterCmptLayout.setVerticalGroup(
             jpAjouterCmptLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jpAjouterCmptLayout.createSequentialGroup()
-                .addContainerGap(537, Short.MAX_VALUE)
+                .addGap(37, 37, 37)
+                .addComponent(jLabel33)
+                .addGap(98, 98, 98)
+                .addGroup(jpAjouterCmptLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel37)
+                    .addComponent(jtf_frs_ville2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(41, 41, 41)
+                .addGroup(jpAjouterCmptLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jtf_frs_num2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel35))
+                .addGap(26, 26, 26)
+                .addGroup(jpAjouterCmptLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel34)
+                    .addComponent(cb_status, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(35, 35, 35)
+                .addComponent(jbtn_ajoutercpt2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 189, Short.MAX_VALUE)
                 .addComponent(btnRetour11)
                 .addGap(25, 25, 25))
         );
@@ -629,10 +1308,6 @@ public class fenetreMenu extends javax.swing.JFrame {
         jtpBoard.setSelectedIndex(4);
     }//GEN-LAST:event_btnRetour10ActionPerformed
 
-    private void btnRetour11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRetour11ActionPerformed
-        jtpBoard.setSelectedIndex(4);
-    }//GEN-LAST:event_btnRetour11ActionPerformed
-
     private void btnHistCmdsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHistCmdsActionPerformed
         jtpBoard.setSelectedIndex(3);
     }//GEN-LAST:event_btnHistCmdsActionPerformed
@@ -652,6 +1327,138 @@ public class fenetreMenu extends javax.swing.JFrame {
     private void btnGererCmptsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnGererCmptsActionPerformed
         jtpBoard.setSelectedIndex(4);
     }//GEN-LAST:event_btnGererCmptsActionPerformed
+
+    private void tf_frs_adrs2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tf_frs_adrs2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tf_frs_adrs2ActionPerformed
+
+    private void tf_frs_pays2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tf_frs_pays2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tf_frs_pays2ActionPerformed
+
+    private void jbtn_ajouterfrsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtn_ajouterfrsActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jbtn_ajouterfrsActionPerformed
+
+    private void tf_frs_nomActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tf_frs_nomActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tf_frs_nomActionPerformed
+
+    private void tf_frs_adrsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tf_frs_adrsActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tf_frs_adrsActionPerformed
+
+    private void tf_frs_paysActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tf_frs_paysActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tf_frs_paysActionPerformed
+
+    private void tf_frs_numActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tf_frs_numActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tf_frs_numActionPerformed
+
+    private void jbtn_ajouterfrs1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtn_ajouterfrs1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jbtn_ajouterfrs1ActionPerformed
+
+    private void jbtn_modfrs1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtn_modfrs1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jbtn_modfrs1ActionPerformed
+
+    private void jbtn_supfrs1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtn_supfrs1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jbtn_supfrs1ActionPerformed
+
+    private void tf_prdt_nomActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tf_prdt_nomActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tf_prdt_nomActionPerformed
+
+    private void tf_prdt_refActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tf_prdt_refActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tf_prdt_refActionPerformed
+
+    private void tf_prdt_prixuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tf_prdt_prixuActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tf_prdt_prixuActionPerformed
+
+    private void tf_prdt_quantActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tf_prdt_quantActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tf_prdt_quantActionPerformed
+
+    private void jbtn_modprdtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtn_modprdtActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jbtn_modprdtActionPerformed
+
+    private void jbtn_ajouterprdtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtn_ajouterprdtActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jbtn_ajouterprdtActionPerformed
+
+    private void jbtn_supprdtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtn_supprdtActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jbtn_supprdtActionPerformed
+
+    private void jtf_frs_nom1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jtf_frs_nom1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jtf_frs_nom1ActionPerformed
+
+    private void jtf_frs_adrs1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jtf_frs_adrs1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jtf_frs_adrs1ActionPerformed
+
+    private void jtf_frs_pays1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jtf_frs_pays1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jtf_frs_pays1ActionPerformed
+
+    private void jtf_frs_num1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jtf_frs_num1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jtf_frs_num1ActionPerformed
+
+    private void jbtn_ajouterfrs2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtn_ajouterfrs2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jbtn_ajouterfrs2ActionPerformed
+
+    private void tf_cpt_idActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tf_cpt_idActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tf_cpt_idActionPerformed
+
+    private void tf_cpt_mdpActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tf_cpt_mdpActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tf_cpt_mdpActionPerformed
+
+    private void jbtn_ajoutercptActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtn_ajoutercptActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jbtn_ajoutercptActionPerformed
+
+    private void jbtn_modcptActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtn_modcptActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jbtn_modcptActionPerformed
+
+    private void jbtn_supcptActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtn_supcptActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jbtn_supcptActionPerformed
+
+    private void jbtn_ajoutercpt2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtn_ajoutercpt2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jbtn_ajoutercpt2ActionPerformed
+
+    private void jtf_frs_num2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jtf_frs_num2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jtf_frs_num2ActionPerformed
+
+    private void btnRetour11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRetour11ActionPerformed
+        jtpBoard.setSelectedIndex(4);
+    }//GEN-LAST:event_btnRetour11ActionPerformed
+
+    private void tf_frs_rechercherActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tf_frs_rechercherActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tf_frs_rechercherActionPerformed
+
+    private void tf_frs_num2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tf_frs_num2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tf_frs_num2ActionPerformed
+
+    private void tf_prdt_catActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tf_prdt_catActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tf_prdt_catActionPerformed
 
     /**
      * @param args the command line arguments
@@ -713,6 +1520,58 @@ public class fenetreMenu extends javax.swing.JFrame {
     private javax.swing.JButton btnSupCmpt;
     private javax.swing.JButton btnSupFrs;
     private javax.swing.JButton btnSupProd;
+    private javax.swing.JComboBox<String> cb_status;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel25;
+    private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel27;
+    private javax.swing.JLabel jLabel28;
+    private javax.swing.JLabel jLabel29;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel30;
+    private javax.swing.JLabel jLabel31;
+    private javax.swing.JLabel jLabel32;
+    private javax.swing.JLabel jLabel33;
+    private javax.swing.JLabel jLabel34;
+    private javax.swing.JLabel jLabel35;
+    private javax.swing.JLabel jLabel37;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JButton jbtn_ajoutercpt;
+    private javax.swing.JButton jbtn_ajoutercpt2;
+    private javax.swing.JButton jbtn_ajouterfrs;
+    private javax.swing.JButton jbtn_ajouterfrs1;
+    private javax.swing.JButton jbtn_ajouterfrs2;
+    private javax.swing.JButton jbtn_ajouterprdt;
+    private javax.swing.JButton jbtn_modcpt;
+    private javax.swing.JButton jbtn_modfrs1;
+    private javax.swing.JButton jbtn_modprdt;
+    private javax.swing.JButton jbtn_supcpt;
+    private javax.swing.JButton jbtn_supfrs1;
+    private javax.swing.JButton jbtn_supprdt;
     private javax.swing.JPanel jpAjouterCmpt;
     private javax.swing.JPanel jpAjouterFrs;
     private javax.swing.JPanel jpAjouterPrd;
@@ -727,9 +1586,41 @@ public class fenetreMenu extends javax.swing.JFrame {
     private javax.swing.JPanel jpSep;
     private javax.swing.JPanel jpVide;
     private javax.swing.JPanel jpWelcome;
+    private javax.swing.JTable jtb_cpt;
+    private javax.swing.JTable jtb_frs;
+    private javax.swing.JTable jtb_frs1;
+    private javax.swing.JTextField jtf_frs_adrs1;
+    private javax.swing.JTextField jtf_frs_nom1;
+    private javax.swing.JTextField jtf_frs_num1;
+    private javax.swing.JTextField jtf_frs_num2;
+    private javax.swing.JTextField jtf_frs_pays1;
+    private javax.swing.JTextField jtf_frs_ville1;
+    private javax.swing.JTextField jtf_frs_ville2;
     private javax.swing.JTabbedPane jtpBoard;
     private javax.swing.JLabel lbDate;
     private javax.swing.JLabel lbMenuLogo;
     private javax.swing.JLabel lbWelcome;
+    private javax.swing.JTextField tf_cpt_id;
+    private javax.swing.JTextField tf_cpt_mdp;
+    private javax.swing.JTextField tf_cpt_recherche;
+    private javax.swing.JTextField tf_frs_adrs;
+    private javax.swing.JTextField tf_frs_adrs2;
+    private javax.swing.JTextField tf_frs_email;
+    private javax.swing.JTextField tf_frs_mail2;
+    private javax.swing.JTextField tf_frs_nom;
+    private javax.swing.JTextField tf_frs_nom2;
+    private javax.swing.JTextField tf_frs_num;
+    private javax.swing.JTextField tf_frs_num2;
+    private javax.swing.JTextField tf_frs_pays;
+    private javax.swing.JTextField tf_frs_pays2;
+    private javax.swing.JTextField tf_frs_rechercher;
+    private javax.swing.JTextField tf_frs_ville;
+    private javax.swing.JTextField tf_frs_ville2;
+    private javax.swing.JTextField tf_prdt_cat;
+    private javax.swing.JTextField tf_prdt_nom;
+    private javax.swing.JTextField tf_prdt_prixu;
+    private javax.swing.JTextField tf_prdt_quant;
+    private javax.swing.JTextField tf_prdt_recherche;
+    private javax.swing.JTextField tf_prdt_ref;
     // End of variables declaration//GEN-END:variables
 }
